@@ -13,6 +13,7 @@ Above is a wiring diagram that will help to understand the components used! The 
 
 
 ![Alt Text](cadmodel.png "Optional Title")
+
 Feel free to download the individual pieces from this github repo, but this is a 3D model of my innovation! I still feel that I am a beginner in onshape, but this project helped further my skills in this area. It's so nice to see that time and effort that is put into a project can be rewarded. Components are attached by Double‑Sided Foam Tape, a strong item that was used in my own robotics team to attach circutry.
 
 Code to be added as I continue work on this!!!
