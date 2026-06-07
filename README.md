@@ -1,5 +1,5 @@
 # Project Papyrus
-### A public repo of my work for Hack Club: Fallout! Subject to various updates. This github is meant to be paired with the neccessary Arduino hardware that is the bulk of the project.
+## A public repo of my work for Hack Club: Fallout! Subject to various updates. This github is meant to be paired with the neccessary Arduino hardware that is the bulk of the project.
 
  
 
@@ -9,6 +9,7 @@ Hello! Welcome to my most ambitious project of my technological career yet! This
 
 
 ![Alt Text](wiringDiagram.png "Optional Title")
+
 Above is a wiring diagram that will help to understand the components used! The entire thing is centered around the arduino circutry, using breadboards, servos, and ultrasonic sensors. My computer science teacher suggested keeping all of the stepper motors centralized, to avoid excess power usage, coming at the cost of only being able to use one motor at a time. The stepper motors are regulated by the drivers and kept cool with the fans. Capacitors regulate power and make sure nothing burns out. The circutry on the right is for the movement of fingers and on the left is for the shoulder, elbow, and hand rotational movement. Go Johnny Go!
 
 ---------------------------------------------------------------------------------------------------------------------------
