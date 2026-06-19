@@ -121,7 +121,7 @@ EN is active-LOW on the TMC2209 — the code holds all three EN pins LOW at star
 
 ### 4. Step-by-Step Assembly
 
-1. **Build the ground network first.** Connect a ground rail/bus that ties together: Arduino A GND, Arduino B GND, the 12V supply's negative terminal, all three TMC2209 GND pins, the joystick GND, and the ultrasonic sensor GND. Use more than one wire between Arduino A and Arduino B's grounds if possible — this single network is the most common source of problems in this build (see Section 6).
+1. **Build the ground network first.** Connect a ground rail/bus that ties together: Arduino A GND, Arduino B GND, the 12V supply's negative terminal, all three TMC2209 GND pins, the joystick GND, and the ultrasonic sensor GND. Use more than one wire between Arduino A and Arduino B's grounds if possible — this single network is the most common source of problems in this build.
 
 2. **Wire the ultrasonic sensor and joystick to Arduino A** per the tables in Section 2.
 
@@ -423,8 +423,8 @@ void loop() {
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
-| Only one motor ever moves, even unprompted | A signal pin is floating or noisy | Confirm wiring matches Section 3 exactly; check ground network (Section 6) |
-| Works on USB, fails on battery | Weak/sagging battery, or ground bounce with no USB ground backbone | Use a better-quality supply; add parallel ground wires (Section 6/7) |
+| Only one motor ever moves, even unprompted | A signal pin is floating or noisy | Confirm wiring matches Section 3 exactly; check ground network. |
+| Works on USB, fails on battery | Weak/sagging battery, or ground bounce with no USB ground backbone | Use a better-quality supply; add parallel ground wires. |
 | "USB device malfunctioned" on plug-in | Damaged USB chip/cable/port from an earlier fault, or driver issue | Try a different cable/port/computer to isolate; reinstall CH340 driver if applicable |
 | Upload fails: "programmer is not responding" | Serial Monitor left open blocking the port, or wrong board/port selected | Close Serial Monitor, verify Tools > Board/Port, try a different USB cable |
 | Direction (CW/CCW) inconsistent on one axis | Loose connection on that direction wire, or noise not fully filtered | Wiggle-test the wire at both ends while running; reseat or add a parallel wire |
