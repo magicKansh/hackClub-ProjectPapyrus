@@ -17,7 +17,8 @@ Above is a wiring diagram that will help to understand the components used! The 
 ## CAD Design: 
 ![Alt Text](fulldesign.png "Optional Title")
 
-Feel free to download the individual pieces from this github repo, but this is a 3D model of my innovation! I still feel that I am a beginner in onshape, but this project helped further my skills in this area. It's so nice to see that time and effort that is put into a project can be rewarded. Components are attached by industrial grade glue, used in my own robotics team to attach circutry. The bill of materials can be found [here.](BOM.csv)
+Feel free to download the individual pieces from this github repo, but this is a 3D model of my innovation! I still feel that I am a beginner in onshape, but this project helped further my skills in this area. It's so nice to see that time and effort that is put into a project can be rewarded. Components are attached by industrial grade glue, used in my own robotics team to attach circutry. The bill of materials can be found [here.](BOM.csv) A link to my onshape can be found here: https://cad.onshape.com/documents/a3976ec1db42c092d0e7bb52/w/d015cfe781e8d86ab63d2d9d/e/b42a30408853c60ea30fe035?renderMode=0&uiState=6a358437e9e5174e9fd6137b
+
 
 
 ---------------------------------------------------------------------------------------------------------------------------
