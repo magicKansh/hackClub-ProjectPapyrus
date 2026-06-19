@@ -1,6 +1,6 @@
 # Project Papyrus
 ### A public repo of my work for Hack Club: Fallout! Subject to various updates. This github is meant to be paired with the neccessary Arduino hardware that is the bulk of the project.
-![Alt Text](magazine.png "Optional Title")
+![Alt Text](poster.png "Optional Title")
 
  
 ## About It: 
